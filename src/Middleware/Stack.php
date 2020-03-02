@@ -2,7 +2,7 @@
 
 namespace Bone\Http\Middleware;
 
-use Bone\Mvc\Router;
+use Bone\Router\Router;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
