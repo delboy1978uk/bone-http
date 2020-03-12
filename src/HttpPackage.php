@@ -1,6 +1,4 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace Bone\Http;
 
@@ -14,21 +12,5 @@ class HttpPackage implements RegistrationInterface
      */
     public function addToContainer(Container $c)
     {
-    }
-
-    /**
-     * @return string
-     */
-    public function getEntityPath(): string
-    {
-        return '';
-    }
-
-    /**
-     * @return bool
-     */
-    public function hasEntityPath(): bool
-    {
-        return false;
     }
 }

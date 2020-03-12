@@ -1,0 +1,204 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/RouteFirewall.php' => 
+  array (
+    34 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    35 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    36 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    37 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    38 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    39 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    40 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    41 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    50 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    53 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    54 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    56 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    57 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+    ),
+    58 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+    ),
+    61 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    62 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    66 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
+      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    67 => NULL,
+    71 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    73 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    74 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    75 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    78 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    81 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    89 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    90 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    91 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    92 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    93 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+    95 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+    ),
+  ),
+  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/FirewallPackage.php' => 
+  array (
+    15 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+    ),
+    16 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+    ),
+    17 => 
+    array (
+      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'Barnacle\\Tests\\FirewallTest::testPackage' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Barnacle\\Tests\\FirewallTest::testFirewall' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Barnacle\\Tests\\FirewallTest::testBlockedRoutes' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Barnacle\\Tests\\FirewallTest::testMiddleware' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/FirewallPackage.php' => true,
+  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/RouteFirewall.php' => true,
+));
+
+return $coverage;
