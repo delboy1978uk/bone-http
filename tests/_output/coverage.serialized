@@ -1,204 +1,283 @@
 <?php
 $coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
 $coverage->setData(array (
-  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/RouteFirewall.php' => 
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => 
   array (
+    19 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+    ),
+    24 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+    ),
+    29 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+    ),
+    31 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+    ),
+    32 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+    ),
     34 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
     ),
     35 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
     ),
     36 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
-    ),
-    37 => 
-    array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
     ),
     38 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
     ),
-    39 => 
+    39 => NULL,
+  ),
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => 
+  array (
+    21 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    22 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    31 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    32 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    33 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    34 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    35 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    36 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    38 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     40 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     41 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
-      1 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      2 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      3 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    42 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    47 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     50 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    53 => 
+    55 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
-    ),
-    54 => 
-    array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     56 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     57 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-    ),
-    58 => 
-    array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     61 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     62 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
     ),
-    66 => 
+    63 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testFirewall',
-      1 => 'Barnacle\\Tests\\FirewallTest::testBlockedRoutes',
-      2 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
     ),
-    67 => NULL,
-    71 => 
+    67 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+    ),
+    68 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     73 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     74 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     75 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    78 => 
+    77 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
     81 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    89 => 
+    82 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    90 => 
+    83 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    91 => 
+    84 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    92 => 
+    86 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
+      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
+      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
     ),
-    93 => 
-    array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
-    ),
-    95 => 
-    array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testMiddleware',
-    ),
+    87 => NULL,
   ),
-  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/FirewallPackage.php' => 
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/Stack.php' => 
   array (
-    15 => 
+    25 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
     ),
-    16 => 
+    26 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
     ),
-    17 => 
+    33 => 
     array (
-      0 => 'Barnacle\\Tests\\FirewallTest::testPackage',
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
     ),
+    34 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    41 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    42 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    50 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    52 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    53 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    56 => 
+    array (
+      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+    ),
+    57 => NULL,
+  ),
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/MiddlewareAwareInterface.php' => 
+  array (
   ),
 ));
 $coverage->setTests(array (
-  'Barnacle\\Tests\\FirewallTest::testPackage' => 
+  'Barnacle\\Tests\\HttpTest::testHalEntity' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\FirewallTest::testFirewall' => 
+  'Barnacle\\Tests\\HttpTest::testHalCollection' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\FirewallTest::testBlockedRoutes' => 
+  'Barnacle\\Tests\\HttpTest::testHalCollectionPage2' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\FirewallTest::testMiddleware' => 
+  'Barnacle\\Tests\\HttpTest::testMiddlewareStack' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
+  ),
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
   ),
 ));
 
 $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
-  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/FirewallPackage.php' => true,
-  '/var/www/html/vendor/delboy1978uk/bone-firewall/src/RouteFirewall.php' => true,
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => true,
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/Stack.php' => true,
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => true,
+  '/var/www/html/vendor/delboy1978uk/bone-http/src/MiddlewareAwareInterface.php' => true,
 ));
 
 return $coverage;
