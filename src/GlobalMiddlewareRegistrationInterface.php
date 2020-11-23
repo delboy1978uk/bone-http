@@ -11,5 +11,5 @@ interface GlobalMiddlewareRegistrationInterface extends MiddlewareRegistrationIn
      * in order to add them to the global middleware stack
      * @return array
      */
-    public function addGlobalMiddleware(): array;
+    public function addGlobalMiddleware(Container $c): array;
 }
