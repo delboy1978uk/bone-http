@@ -13,8 +13,8 @@ interface MiddlewareRegistrationInterface
      * If you need your middleware added globally, implement
      * GlobalMiddlewareRegistrationInterface instead, where you can also
      * return the names of the middlewares created that you want added
-     * @param Container $container
+     * @param Container $c
      * @return array
      */
-    public function getMiddleware(Container $container): array;
+    public function getMiddleware(Container $c): array;
 }

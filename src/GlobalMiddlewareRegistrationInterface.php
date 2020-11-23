@@ -13,5 +13,5 @@ interface GlobalMiddlewareRegistrationInterface extends MiddlewareRegistrationIn
      * e.g. if a middleware is disabled in package config php file, like i18n for instance
      * @return array
      */
-    public function addGlobalMiddleware(Container $c): array;
+    public function getGlobalMiddleware(Container $c): array;
 }
