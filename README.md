@@ -25,3 +25,6 @@ You can add middleware of course to the router's stack, either on a group of rou
 This package comes with two middleware classes for representing HAL links for an API.
 For a single entity, you can use the `Bone\Http\Middleware\HalEntity`, and for an array you can use the
 `Bone\Http\Middleware\HalCollection`. 
+#### adding your own middlware to a package
+If your package class implements `Bone\Http\MiddlewareRegistrationInterface` you can return an array of middlewares 
+and it will be added by the Bone Application to the container
