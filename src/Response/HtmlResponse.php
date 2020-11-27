@@ -5,6 +5,8 @@ namespace Bone\Http\Response;
 use Bone\Http\Response;
 use Bone\Server\Traits\HasAttributesTrait;
 use Laminas\Diactoros\Response\InjectContentTypeTrait;
+use Laminas\Diactoros\Stream;
+use Psr\Http\Message\StreamInterface;
 
 class HtmlResponse extends Response
 {
