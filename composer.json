@@ -11,13 +11,13 @@
     "require": {
         "php": ">7.1",
         "delboy1978uk/barnacle": "^2.3",
-        "psr/http-server-middleware": "^1.0",
+        "delboy1978uk/bone-router": "^1.0",
+        "laminas/laminas-diactoros": "2.*",
         "psr/http-message": "^1.0",
-        "delboy1978uk/bone-router": "^1.0"
+        "psr/http-server-middleware": "^1.0"
     },
     "require-dev": {
         "codeception/codeception": "^2.2",
-        "laminas/laminas-diactoros": "2.*",
         "roave\/security-advisories": "dev-master"
     },
     "autoload": {
