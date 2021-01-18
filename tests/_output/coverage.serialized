@@ -1,266 +1,407 @@
 <?php
 $coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
 $coverage->setData(array (
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => 
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => 
   array (
     19 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     24 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     29 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     31 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     32 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     34 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     35 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     36 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     38 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalEntity',
+      0 => 'BoneTest\\Http\\HttpTest::testHalEntity',
     ),
     39 => NULL,
   ),
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => 
+  '/var/www/html/delboy1978uk/bone-http/src/Response/HtmlResponse.php' => 
   array (
-    21 => 
+    29 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
-    22 => 
+    30 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    31 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
     32 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    33 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
     34 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
-    35 => 
+    44 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
-    36 => 
+    45 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
     ),
-    38 => 
+    48 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
+      2 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
     ),
-    40 => 
+    49 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    41 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    42 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    47 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
     ),
     50 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
+      0 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
     ),
-    55 => 
+    51 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    56 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    57 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    61 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    62 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-    ),
-    63 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-    ),
-    67 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    68 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    73 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    74 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    75 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    77 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    81 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    82 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    83 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    84 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    86 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testHalCollection',
-      1 => 'Barnacle\\Tests\\HttpTest::testHalCollectionPage2',
-    ),
-    87 => NULL,
-  ),
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/Stack.php' => 
-  array (
-    25 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    26 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    33 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    34 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    41 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    42 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    50 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+      0 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
     ),
     52 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
-    ),
-    53 => 
-    array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+      0 => 'BoneTest\\Http\\HttpTest::testHtmlResponse',
     ),
     56 => 
     array (
-      0 => 'Barnacle\\Tests\\HttpTest::testMiddlewareStack',
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    57 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    58 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    60 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+      1 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    61 => NULL,
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/Response.php' => 
+  array (
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/JsonParse.php' => 
+  array (
+    19 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+    ),
+    20 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+    ),
+    21 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+    ),
+    23 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testJsonParse',
+    ),
+    24 => NULL,
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    22 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    31 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    32 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    33 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    34 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    35 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    36 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    38 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    40 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    41 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    42 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    47 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    50 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    55 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    56 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    57 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    61 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    62 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+    ),
+    63 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+    ),
+    67 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    68 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    73 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    74 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    75 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    77 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    81 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    82 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    83 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    84 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    86 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testHalCollection',
+      1 => 'BoneTest\\Http\\HttpTest::testHalCollectionPage2',
+    ),
+    87 => NULL,
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/Stack.php' => 
+  array (
+    25 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    26 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    33 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    34 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    41 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    42 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    50 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    52 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    53 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
+    ),
+    56 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testMiddlewareStack',
     ),
     57 => NULL,
   ),
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/MiddlewareAwareInterface.php' => 
+  '/var/www/html/delboy1978uk/bone-http/src/Response/LayoutResponse.php' => 
+  array (
+    19 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    20 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    21 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    28 => 
+    array (
+      0 => 'BoneTest\\Http\\HttpTest::testLayoutResponse',
+    ),
+    29 => NULL,
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/MiddlewareRegistrationInterface.php' => 
+  array (
+  ),
+  '/var/www/html/delboy1978uk/bone-http/src/GlobalMiddlewareRegistrationInterface.php' => 
   array (
   ),
 ));
 $coverage->setTests(array (
-  'Barnacle\\Tests\\HttpTest::testHalEntity' => 
+  'BoneTest\\Http\\HttpTest::testHalEntity' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\HttpTest::testHalCollection' => 
+  'BoneTest\\Http\\HttpTest::testJsonParse' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\HttpTest::testHalCollectionPage2' => 
+  'BoneTest\\Http\\HttpTest::testHalCollection' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'Barnacle\\Tests\\HttpTest::testMiddlewareStack' => 
+  'BoneTest\\Http\\HttpTest::testHalCollectionPage2' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'BoneTest\\Http\\HttpTest::testMiddlewareStack' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'BoneTest\\Http\\HttpTest::testHtmlResponse' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'BoneTest\\Http\\HttpTest::testLayoutResponse' => 
   array (
     'size' => 'unknown',
     'status' => 0,
@@ -274,10 +415,15 @@ $coverage->setTests(array (
 
 $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => true,
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/Stack.php' => true,
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => true,
-  '/var/www/html/vendor/delboy1978uk/bone-http/src/MiddlewareAwareInterface.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/HalEntity.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/Stack.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/JsonParse.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Middleware/HalCollection.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/MiddlewareRegistrationInterface.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Response/HtmlResponse.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Response/LayoutResponse.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/GlobalMiddlewareRegistrationInterface.php' => true,
+  '/var/www/html/delboy1978uk/bone-http/src/Response.php' => true,
 ));
 
 return $coverage;
