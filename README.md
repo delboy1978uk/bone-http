@@ -1,6 +1,6 @@
 # http
 [![Latest Stable Version](https://poser.pugx.org/delboy1978uk/bone-http/v/stable)](https://packagist.org/packages/delboy1978uk/bone-http) [![Total Downloads](https://poser.pugx.org/delboy1978uk/bone/downloads)](https://packagist.org/packages/delboy1978uk/bone) [![Latest Unstable Version](https://poser.pugx.org/delboy1978uk/bone-http/v/unstable)](https://packagist.org/packages/delboy1978uk/bone-http) [![License](https://poser.pugx.org/delboy1978uk/bone-http/license)](https://packagist.org/packages/delboy1978uk/bone-http)<br />
-[![Build Status](https://travis-ci.org/delboy1978uk/bone-http.png?branch=master)](https://travis-ci.org/delboy1978uk/bone-http) [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/?branch=master)<br />
+![build status](https://github.com/delboy1978uk/bone-http/actions/workflows/master.yml/badge.svg)  [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/bone-http/?branch=master)<br />
 
 Http Middleware stack and HAL middleware for Bone Framework. 
 ## installation
