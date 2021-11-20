@@ -18,7 +18,7 @@
         "psr/http-server-middleware": "^1.0"
     },
     "require-dev": {
-        "codeception/codeception": "^4.1",,
+        "codeception/codeception": "^4.1",
         "codeception/module-asserts": "^1.1",
         "roave\/security-advisories": "dev-latest"
     },
