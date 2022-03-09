@@ -2,7 +2,7 @@
 
 namespace Bone\Http\Middleware;
 
-use Bone\Router\Router;
+use Bone\Http\RouterInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
@@ -13,14 +13,14 @@ class Stack implements RequestHandlerInterface
     /** @var MiddlewareInterface[] $middleware */
     private $middleware = [];
 
-    /** @var Router $router */
+    /** @var RouterInterface $router */
     private $router;
 
     /**
      * Stack constructor.
-     * @param Router $router
+     * @param RouterInterface $router
      */
-    public function __construct(Router $router)
+    public function __construct(RouterInterface $router)
     {
         $this->router = $router;
     }
