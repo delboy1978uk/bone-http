@@ -13,7 +13,7 @@ interface RouterInterface
     public function removeRoute(Route $routeToRemove): void;
     public function handle(ServerRequestInterface $request): ResponseInterface;
     public function getNamedRoute(string $name): Route;
-    public function addPatternMatcher(string $alias, string $regex): self;
+    public function addPatternMatcher(string $alias, string $regex);
     public function group(string $prefix, callable $group): RouteGroup;
     public function map(string $method, string $path, $handler): Route;
 
