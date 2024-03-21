@@ -94,7 +94,8 @@ class HttpTest extends Unit
 
     public function testMiddlewareStack()
     {
-        $stack = new Stack(new Router());
+        $router = new class extends Router implements RouterInterface {};
+        $stack = new Stack($router);
         $middleware = new FakeMiddleware();
         $stack->addMiddleWare($middleware);
         $stack->prependMiddleWare(clone $middleware);
