@@ -11,6 +11,7 @@ use Bone\Http\Middleware\JsonParse;
 use Bone\Http\Middleware\Stack;
 use Bone\Http\Response\HtmlResponse;
 use Bone\Http\Response\LayoutResponse;
+use Bone\Http\RouterInterface;
 use League\Route\Router;
 use BoneTest\Http\AnotherFakeRequestHandler;
 use BoneTest\Http\FakeController;
