@@ -16,7 +16,7 @@ use BoneTest\Http\AnotherFakeRequestHandler;
 use BoneTest\Http\FakeController;
 use BoneTest\Http\FakeMiddleware;
 use BoneTest\Http\FakeRequestHandler;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 use InvalidArgumentException;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\Stream;
@@ -26,7 +26,7 @@ use League\Route\Route;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class HttpTest extends Test
+class HttpTest extends Unit
 {
     /** @var Container */
     protected $container;
