@@ -26,6 +26,7 @@ use League\Route\Http\Exception\NotFoundException;
 use League\Route\Route;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\RequestHandlerInterface;
 
 class HttpTest extends Unit
 {
@@ -95,7 +96,27 @@ class HttpTest extends Unit
 
     public function testMiddlewareStack()
     {
-        $router = new class extends Router implements RouterInterface {};
+        $router = new class extends Router implements RouterInterface, RequestHandlerInterface {
+            public function getRoutes(): array
+            {
+                return $this->routes;
+            }
+
+            public function removeRoute(Route $routeToRemove): void
+            {
+                foreach ($this->routes as $index => $route) {
+                    if ($route === $routeToRemove) {
+                        unset($this->routes[$index]);
+                    }
+                }
+            }
+
+            public function handle(ServerRequestInterface $request): ResponseInterface
+            {
+                return $this->dispatch($request);
+            }
+        };
+
         $stack = new Stack($router);
         $middleware = new FakeMiddleware();
         $stack->addMiddleWare($middleware);
