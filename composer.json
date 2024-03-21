@@ -20,7 +20,7 @@
         "codeception/codeception": "^5.1",
         "codeception/module-asserts": "^3.0",
         "roave\/security-advisories": "dev-latest",
-        "delboy1978uk/bone-router": "dev-feature/php82and83 as 1.3.0"
+        "delboy1978uk/router": "^4.4"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,5 @@
         "psr-4": {
             "BoneTest\\": "tests/unit/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
