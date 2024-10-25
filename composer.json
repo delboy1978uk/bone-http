@@ -10,6 +10,7 @@
     ],
     "require": {
         "php": ">7.3",
+        "ext-fileinfo": "*",
         "delboy1978uk/barnacle": "^2.3",
         "delboy1978uk/bone-router": "^1.0",
         "delboy1978uk/bone-server":  "^1.2.0",
