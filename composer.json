@@ -1,6 +1,6 @@
 {
-    "name": "delboy1978uk\/bone-http",
-    "description": "Http package for Bone MVC Framework",
+    "name": "delboy1978uk/bone-http",
+    "description": "HTTP package for Bone Framework",
     "license": "MIT",
     "authors": [
         {
@@ -9,18 +9,18 @@
         }
     ],
     "require": {
-        "php": ">7.3",
+        "php": "^8.2",
         "ext-fileinfo": "*",
         "delboy1978uk/barnacle": "^2.3",
-        "delboy1978uk/bone-router": "^1.0",
         "delboy1978uk/bone-server":  "^1.2.0",
-        "laminas/laminas-diactoros": "2.*",
-        "psr/http-message": "^1.0",
+        "delboy1978uk/router": "^4.4",
+        "laminas/laminas-diactoros": "^3.3",
+        "psr/http-message": "^2.0",
         "psr/http-server-middleware": "^1.0"
     },
     "require-dev": {
-        "codeception/codeception": "^4.1",
-        "codeception/module-asserts": "^1.1",
+        "codeception/codeception": "^5.1",
+        "codeception/module-asserts": "^3.0",
         "roave\/security-advisories": "dev-latest"
     },
     "autoload": {

@@ -11,12 +11,13 @@ use Bone\Http\Middleware\JsonParse;
 use Bone\Http\Middleware\Stack;
 use Bone\Http\Response\HtmlResponse;
 use Bone\Http\Response\LayoutResponse;
-use Bone\Router\Router;
+use Bone\Http\RouterInterface;
+use League\Route\Router;
 use BoneTest\Http\AnotherFakeRequestHandler;
 use BoneTest\Http\FakeController;
 use BoneTest\Http\FakeMiddleware;
 use BoneTest\Http\FakeRequestHandler;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 use InvalidArgumentException;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\Stream;
@@ -25,8 +26,9 @@ use League\Route\Http\Exception\NotFoundException;
 use League\Route\Route;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Server\RequestHandlerInterface;
 
-class HttpTest extends Test
+class HttpTest extends Unit
 {
     /** @var Container */
     protected $container;
@@ -94,7 +96,28 @@ class HttpTest extends Test
 
     public function testMiddlewareStack()
     {
-        $stack = new Stack(new Router());
+        $router = new class extends Router implements RouterInterface, RequestHandlerInterface {
+            public function getRoutes(): array
+            {
+                return $this->routes;
+            }
+
+            public function removeRoute(Route $routeToRemove): void
+            {
+                foreach ($this->routes as $index => $route) {
+                    if ($route === $routeToRemove) {
+                        unset($this->routes[$index]);
+                    }
+                }
+            }
+
+            public function handle(ServerRequestInterface $request): ResponseInterface
+            {
+                return $this->dispatch($request);
+            }
+        };
+
+        $stack = new Stack($router);
         $middleware = new FakeMiddleware();
         $stack->addMiddleWare($middleware);
         $stack->prependMiddleWare(clone $middleware);

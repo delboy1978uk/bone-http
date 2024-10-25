@@ -3,7 +3,7 @@
 namespace BoneTest\Http;
 
 use Bone\Http\Response\HtmlResponse;
-use Codeception\TestCase\Test;
+use Codeception\Test\Unit;
 use Laminas\Diactoros\Response\JsonResponse;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -11,10 +11,10 @@ use Psr\Http\Server\RequestHandlerInterface;
 
 class JsonParseRequestHandler implements RequestHandlerInterface
 {
-    /** @var Test $tester */
+    /** @var Unit $tester */
     private $tester;
 
-    public function __construct(Test $test)
+    public function __construct(Unit $test)
     {
         $this->tester = $test;
     }
