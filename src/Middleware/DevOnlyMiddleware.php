@@ -15,7 +15,7 @@ class DevOnlyMiddleware implements MiddlewareInterface
 {
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        if (getenv('APPLICATION_ENV' === 'development')) {
+        if (getenv('APPLICATION_ENV') === 'development') {
             return $handler->handle($request);
         }
 
