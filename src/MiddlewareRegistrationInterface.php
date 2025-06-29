@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Bone\Http;
 
 use Barnacle\Container;
-use Bone\Http\Middleware\Stack;
 
 interface MiddlewareRegistrationInterface
 {

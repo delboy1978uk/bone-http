@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Bone\Http;
 
 use League\Route\Route;
@@ -16,5 +18,4 @@ interface RouterInterface
     public function addPatternMatcher(string $alias, string $regex);
     public function group(string $prefix, callable $group): RouteGroup;
     public function map(string $method, string $path, $handler): Route;
-
 }

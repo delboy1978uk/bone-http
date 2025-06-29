@@ -6,7 +6,4 @@ namespace Bone\Http;
 
 use Laminas\Diactoros\Stream as BaseStream;
 
-class Stream extends BaseStream
-{
-
-}
+class Stream extends BaseStream {}

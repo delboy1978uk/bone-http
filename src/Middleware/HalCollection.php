@@ -1,31 +1,25 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Bone\Http\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;
+use function ceil;
+use function json_decode;
 
 class HalCollection implements MiddlewareInterface
 {
-    /** @var int $numPerPage */
-    private $numPerPage;
+    private int $numPerPage;
 
-    /**
-     * HalCollection constructor.
-     * @param int $numPerPage
-     */
     public function __construct(int $numPerPage)
     {
         $this->numPerPage = $numPerPage;
     }
 
-    /**
-     * @param ServerRequestInterface $request
-     * @param RequestHandlerInterface $handler
-     * @return ResponseInterface
-     */
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
         $params = $request->getQueryParams();

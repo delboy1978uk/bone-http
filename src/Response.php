@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Bone\Http;
 
 use Bone\Server\Traits\HasAttributesTrait;
