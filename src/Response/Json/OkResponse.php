@@ -8,7 +8,7 @@ use Bone\Http\Response\JsonResponse;
 
 class OkResponse extends JsonResponse
 {
-    public function __construct(string $message)
+    public function __construct(string|array $message)
     {
         $data = [
             'data' => $message,
