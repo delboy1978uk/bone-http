@@ -11,7 +11,6 @@ class ValidationErrorResponse extends JsonResponse
     public function __construct(string|array $message)
     {
         $data = [
-            'status_code' => 422,
             'reason_phrase' => $message,
         ];
 

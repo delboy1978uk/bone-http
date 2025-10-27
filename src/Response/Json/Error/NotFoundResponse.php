@@ -11,7 +11,6 @@ class NotFoundResponse extends JsonResponse
     public function __construct(string $message)
     {
         $data = [
-            'status_code' => 404,
             'reason_phrase' => $message,
         ];
 

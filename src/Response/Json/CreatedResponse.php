@@ -4,13 +4,21 @@ declare(strict_types=1);
 
 namespace Bone\Http\Response\Json;
 
-use Bone\Http\Response\EmptyResponse;
+use Bone\Http\Response\JsonResponse;
 
-class CreatedResponse extends EmptyResponse
+class CreatedResponse extends JsonResponse
 {
-    public function __construct()
+    public function __construct(array|string|null $body = null)
     {
-        parent::__construct(201);
+        $data = [];
+
+        if ($body) {
+            $data = [
+                'data' => $body
+            ];
+        }
+
+        parent::__construct($data, 201);
     }
 }
 

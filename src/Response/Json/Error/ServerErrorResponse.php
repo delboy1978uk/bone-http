@@ -11,7 +11,6 @@ class ServerErrorResponse extends JsonResponse
     public function __construct(string|array $message)
     {
         $data = [
-            'status_code' => 500,
             'reason_phrase' => $message,
         ];
 

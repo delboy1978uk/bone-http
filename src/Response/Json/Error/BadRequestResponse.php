@@ -11,7 +11,6 @@ class BadRequestResponse extends JsonResponse
     public function __construct(string|array $message)
     {
         $data = [
-            'status_code' => 400,
             'reason_phrase' => $message,
         ];
 

@@ -1,9 +1,6 @@
 <?php
-/**
- * User: delboy1978uk
- * Date: 26/10/2025
- * Time: 18:12
- */
+
+declare(strict_types=1);
 
 namespace Bone\Http\Response\Json;
 
@@ -14,8 +11,7 @@ class OkResponse extends JsonResponse
     public function __construct(string $message)
     {
         $data = [
-            'status_code' => 200,
-            'reason_phrase' => $message,
+            'data' => $message,
         ];
 
         parent::__construct($data, 200);
